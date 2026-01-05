@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://h2n6.com/?utm_campaign=yIuPpim1tD&v1=[v1]&v2=[v2]&v3=[v3]";
 
   document.getElementById("gn-yes").addEventListener("click", () => {
-    if (isLander) {
+    if (isLander || isLanderN) {
       window.location.href = landerRedirect;
     } else {
       // Index = just close
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("gn-close").addEventListener("click", () => {
-    if (isLander) {
+    if (isLander || isLanderN) {
       window.location.href = landerRedirect;
     } else {
       // INDEX CLOSE BEHAVIOR
