@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     path.endsWith("index.html");
 
   const isLander = path.endsWith("lander.html");
+  const isLanderN = path.endsWith("lander");
 
   // Only show on index or lander
-  if (!isIndex && !isLander) return;
+  if (!isIndex && !isLander && !isLanderN) return;
 
   // Prevent double rendering
   if (document.querySelector(".modal-backdrop")) return;
