@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * LANDER LOGIC (Redirect on both buttons)
    */
   const landerRedirect =
-    "paste your link here";
+    "https://h2n6.com/?utm_campaign=yIuPpim1tD&v1=[v1]&v2=[v2]&v3=[v3]";
 
   document.getElementById("gn-yes").addEventListener("click", () => {
     if (isLander) {
